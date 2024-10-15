@@ -65,7 +65,7 @@ model = classifier.fit(
     validation_data=test_set,
     validation_steps=25)
 
-# Saving the model
+# Guardar el modelo entrenado
 classifier.save('Trained_model.h5')
 
 # Plotting the results
